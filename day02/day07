@@ -1,0 +1,20 @@
+逻辑运算符
+int i = 10;
+int j = 20;
+int k = 30;
+1 & 叫逻辑与   有false则false
+例子：System.out.println((i>j) & (i>k));//false & false
+      System.out.println((j>i) & (i>k));//true & false
+      System.out.println((j>i) & (k>i));//true & true
+2 | 叫逻辑或  有true则true
+例子：System.out.println((i>b) | (i>k));//false | false
+      System.out.println((j>i) | (i>k));//true | false
+      System.out.println((b>i) | (k>i));//true | true
+3 ^ 叫逻辑异或  相同为false,不同为true
+例子：System.out.println((i>b) ^ (i>k));//false ^ false
+      System.out.println((j>i) ^ (i>k));//true ^ true
+      System.out.println((b>i) ^ (k<i));//true ^ folse
+4 ! 叫逻辑非  取反符号
+例子：System.out.println((i>b);false
+      System.out.println(!(i>k);true
+      System.out.println(!!(b>i);true
