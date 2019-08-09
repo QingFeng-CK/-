@@ -8,3 +8,4 @@
       int max = a > b ? a : b;
       输出结果
       System.out.println("max:" + max);
+      我真厉害
