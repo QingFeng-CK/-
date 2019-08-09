@@ -16,5 +16,14 @@ int k = 30;
       System.out.println((b>i) ^ (k<i));//true ^ folse
 4 ! 叫逻辑非  取反符号
 例子：System.out.println((i>b);false
-      System.out.println(!(i>k);true
-      System.out.println(!!(b>i);true
+      System.out.println(!(i>k);!true
+      System.out.println(!!(b>i);!!true
+===========================================================
+短路逻辑运算符
+1 && 叫短路与，作用和&相同，但是有短路效果
+2 || 叫短路或，作用和|相同，但是有短路效果
+注意事项：1 逻辑与&无论左边真假，右边都要执行
+        短路与&&如果左边是真，右边执行，如果左边是假，右边不执行
+        2 逻辑或|无论左边真假，右边都要执行
+        短路或||如果左边是假，右边执行，如果左边是真，右边不执行
+        最常用的逻辑运算符是：&&，||，!
