@@ -16,7 +16,7 @@
 定义:在程序运行中,其值不可以改变的量
 常量有6类:
 1 字符串常量 用双引号括起来的内容
-例子:System.out.println("HelloEorld");
+例子:System.out.println("HelloWorld");
 2 整数常量 不带小数的数字
 例子:System.out.println(8848);
 3 小数常量 带小数的数字
@@ -24,9 +24,9 @@
 4 字符常量 用单引号括起来的内容
 例子:System.out.println('c');
      System.out.println('我');
-5 布尔常量 布尔值,表示真假 true,fallse
+5 布尔常量 布尔值,表示真假 true,false
 例子:System.out.println(true);
-     System.out.println(fallse);
+     System.out.println(false);
 6 空常量(null) 一个特殊的值,空值,并且空常量不能直接输出
 例子:System.out.println(null);
 ============================
@@ -50,7 +50,7 @@
 				{数组([])
 数据类型
 1 整数有4个 byte, short, int, long
-2 浮点数有两个 float(精度低) duoble(精度高)
+2 浮点数有两个 float(精度低) double(精度高)
 3 字符有1个 char
 4 布尔有1个 boolean()取值范围 true,false)
 ==========================================
@@ -78,17 +78,17 @@
 约定1:标识符是一个单词的时候,首字母小写
 例子:name
 约定2:标识符由多个单词组成的时候,第一个单词字母小写,其它单词首字母大写
-例子:firtName
+例子:firstName
 大驼峰命名:类
 约定1:标识符是一个单词的时候首字母大写
-例子:Studengt
+例子:Student
 约定2:标识符有多个单词组成的时候,每个单词的首字母大写
 例子:GoodStudent
 =================================
 类型转换
 1 自动类型转换
 就是表示数据范围小的数值或者变量赋值给另一个表示数据范围大的变量
-例子:diuble d = 10;
+例子:double d = 10;
      System.out.println(d);
 2 强制类型转换
 就是表示数据范围大的数值或者变量赋值给另一个表示数据范围小的变量
