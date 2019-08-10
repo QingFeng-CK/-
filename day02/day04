@@ -1,5 +1,5 @@
 数据输入
-Scanner使用的基本步骤：
+Scanner使用的基本步骤：（Scanner也是一个类名）
 1 导包：
 import java.util.Scanner;
 注意：导包的动作必须出现在public class 类名 {
