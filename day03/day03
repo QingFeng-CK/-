@@ -16,10 +16,13 @@ switch(表达式){
         2 依次和case后面的值进行比较，如果有对应的值，就会执行相应的语句，在执行过程中，遇到break就会结束
         3 如果所有case后面的值和表达式都不匹配，就会执行default里面的语句体，然后结束掉。
 例子：
-public class ... {
+public class 类名 {
      public static void main(String[] args) {
-        System.out.println("开始哈哈哈")；
+        System.out.println("开始了哈哈哈")；
+        Scanner sc = new Scanner(System.in);
+        System.out.println("请输入一个星期数")
+        int  = sc.mextlnt ();
 
-        System.out.println("结束哈哈哈")；
+        System.out.println("结束哈了哈哈")；
      }
 }
