@@ -5,8 +5,20 @@ import java.util.Random;
 注意：导包的动作必须出现在public class 类名 {
 }的上面
 2 创建对象
-Random r = new Random(System.in);
+Random r = new Random();
 注意：上面这个格式里面，只有r是变量名，可以变，其他的不可以变。
 3 获取随机数
 int number = r.nextInt(10);//获取随机数的范围包括0，不包括10
 上面这个格式里面，number是变量名，可以变，数字10可以变，其他的不可以，变如果r改变了，创建对象里面的r也要跟着改变
+例子：
+import java.util.Random;
+public class day11{
+    public static void main(String[] args){
+创建对象
+    Random s = new Random();
+    for(int i=1; i<15; i++){
+        int sb = s.nextInt(15);
+        System.out.println("sb" + sb);
+        }
+    }
+}
